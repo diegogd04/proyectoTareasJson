@@ -1,0 +1,30 @@
+{
+  "tareas": [
+    {
+      "id": 2,
+      "texto": "Preparar presentación Angular",
+      "fecha": "26/11/2021",
+      "hora": "08:00",
+      "recrdatorio": true
+    },
+    {
+      "id": 3,
+      "texto": "Reunión en la Oficina",
+      "fecha": "16/12/2021",
+      "hora": "15:45",
+      "recrdatorio": false
+    },
+    {
+      "texto": "Revisión del Coche",
+      "fecha": "20/12/2021",
+      "recrdatorio": true,
+      "id": 4
+    },
+    {
+      "texto": "Prueba mod",
+      "fecha": "05/12/2023",
+      "recrdatorio": false,
+      "id": 5
+    }
+  ]
+}

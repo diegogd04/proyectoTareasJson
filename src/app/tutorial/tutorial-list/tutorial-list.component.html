@@ -1,0 +1,11 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<div class="m-2">
+  <h2>Lista de Tareas</h2>
+  <ul class="list-group">
+    <li *ngFor="let tarea of tareas" class="list-group-item list-group-item-action" (click)="openForSee(tarea)"
+      [class.active]="tarea == selectedTarea">
+      {{tarea.texto}}
+      <span class="material-icons float-right">edit</span>
+    </li>
+  </ul>
+</div>
